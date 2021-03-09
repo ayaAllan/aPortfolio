@@ -22,7 +22,7 @@ const MyNavbar = () => {
                         <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-        </Navbar>
+             </Navbar>
         </>
     )
 }
