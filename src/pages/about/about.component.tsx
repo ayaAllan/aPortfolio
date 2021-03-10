@@ -6,6 +6,7 @@ import Image from 'react-bootstrap/Image'
 import Button from "react-bootstrap/Button";
 import Profile from '../../assets/img/profile/profile.webp'
 import "./about.style.css";
+import { FormControl } from 'react-bootstrap';
 
 const About = () => {
     return (
@@ -23,16 +24,25 @@ const About = () => {
 
                         {/* details section */}
                         <Col xs={12} md={6}>
-                            <Row className=" align-items-start p-2 my-details rounded">
+                            <Row className=" align-items-start p-2 my-details rounded flexbox">
                                 Hi there! I'm <strong>&nbsp;Anas</strong>
-                                <br />Lived in Germany, Morocco, and Canada. 
                                 <br />
-                                Mechanical engineering is my passion, prototyping to develop ideas into working realizations by overlapping disciplines and fading the lines between mechanical. electrical, and computer engineering.
-                                <br /> I have experience working in a small bike shop and Fortune 500 pharmaceuticals company, take a look at my work and resume bellow.
-                                <br /> <br />
-
+                                Lived in Germany, Morocco, and Canada. Mechanical engineering is my passion, prototyping to develop ideas into working realizations by overlapping disciplines and fading the lines between mechanical. electrical, and computer engineering.
+                                I have experience working in a small bike shop and Fortune 500 pharmaceuticals company, take a look at my work and resume below.
+                                <div id="deets">
+                                    <p><strong>EDUCATION</strong></p>
+                                    York University Lassonde School of Engineering - Mechanical Engineering
+                                    <br /> York University Schulich School of Business - Entrepreneurship Certificate<br />
+                                </div> 
+                                <div id="deets">
+                                    <p><strong>AWARDS</strong></p>
+                                    York University Biomechanics Competition - 1st
+                                    <br /> York Engineering Competition - 2nd
+                                </div>    
+                            
+                            </Row>
                                 {/* buttons section */}
-                                <Col className="d-flex justify-content-end flex-wrap" >
+                            <Row className="d-flex justify-content-end flex-wrap buttons" >
                                 <div>
                                     <a href="#contact">
                                     <Button className="m-1" variant="outline-primary">
@@ -47,8 +57,7 @@ const About = () => {
                                     </Button>
                                     </a>
                                 </div>
-                                </Col>
-                            </Row>
+                            </Row> 
                         </Col>
                     </Row>
                 </Container>
