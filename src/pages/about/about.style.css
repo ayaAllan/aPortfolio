@@ -1,6 +1,8 @@
 .about {
-    background-color: transparent;
+    background-color:  #f8f9fa21;
     font-size: 1.1em;
+    margin: 100px 0px;
+    padding: 30px;
   }
   
 .profile {
@@ -8,10 +10,17 @@
  }
     
 .my-details {
-    background-color: rgba(255, 255, 255, 0.747);
+    /* background-color: rgba(255, 255, 255, 0.747); */
     font-size: 13px;
 }
 
+.my-deets {
+  padding-right: 70px;
+}
 #deets {
   margin-top: 20px;
+}
+
+.butt{
+  background-color: rgba(255, 255, 255, 0.438);
 }

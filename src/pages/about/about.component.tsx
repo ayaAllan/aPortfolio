@@ -23,7 +23,7 @@ const About = () => {
                         </Col>
 
                         {/* details section */}
-                        <Col xs={12} md={6}>
+                        <Col xs={12} md={6} className="my-deets">
                             <Row className=" align-items-start p-2 my-details rounded flexbox">
                                 Hi there! I'm <strong>&nbsp;Anas</strong>
                                 <br />
@@ -45,14 +45,14 @@ const About = () => {
                             <Row className="d-flex justify-content-end flex-wrap buttons" >
                                 <div>
                                     <a href="#contact">
-                                    <Button className="m-1" variant="outline-primary">
+                                    <Button className="m-1 butt" variant="outline-primary">
                                         Let's talk
                                     </Button>
                                     </a>
                                 </div>
                                 <div>
                                     <a href="file:///Users/aya.abuallan/Downloads/anas_berrada_resume.pdf" target="_blank" rel="noopener noreferrer">
-                                    <Button className="m-1" variant="outline-primary">
+                                    <Button className="m-1 butt" variant="outline-primary">
                                         My Resume
                                     </Button>
                                     </a>
